@@ -1,12 +1,41 @@
+header {
+  background-image: url(Darkwood.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 div.wht1 {
+  position: relative;
+  z-index: 2;
   background-color: #fff;
   height: 1800px;
 }
 div.wht2 {
+  position: relative;
+  z-index: 2;
   background-color: #fff;
   height: 3600px;
 }
 div.wht3 {
+  position: relative;
+  z-index: 2;
   background-color: #fff;
   height: 1800px;
+}
+div.list_of_links {
+  position: relative;
+  z-index: 2;
+  background-color: #dca;
+  height: 50px;
+}
+div.tarifs_link {
+  position: relative;
+  z-index: 2;
+  background-color: #bcd;
+  height: 360px;
+}
+div.good_stuff {
+  position: relative;
+  z-index: 2;
+  background-color: #cda;
+  height: 360px;
 }
