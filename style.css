@@ -1,5 +1,6 @@
 header {
   height:500px;
+  font-family: Monsterrat;
 }
 .wht1 {
   position: relative;
@@ -22,7 +23,6 @@ header {
 .list_of_links {
   position: relative;
   z-index: 2;
-  background-color: #dca;
   height: 50px;
 }
 .tarifs_link {
@@ -39,6 +39,7 @@ header {
   font-size: 52px;
   line-height: 60px;
   font-weight: bold;
+  font-family: inherit;
   color: #fff;
 }
 .uslugi {
@@ -50,6 +51,8 @@ header {
   border: round;
   border-color:#fff;
   color: #fff;
+  border-radius:5px;
+  padding: 15px 70px;
 }
 .gs_up_first {
   font-size: 48px;
@@ -65,7 +68,6 @@ header {
   font-size: 12px;
   color: #fff;
   line-height: 1.25;
-  font-family: Monsterrat;
 }
 #bg_video {
   width: 100%;
@@ -77,4 +79,10 @@ header {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+.txt_top {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
 }
