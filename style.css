@@ -1,12 +1,15 @@
+body {
+  font-family: Monsterrat;
+}
 header {
   height:500px;
-  font-family: Monsterrat;
+  
 }
 .wht1 {
   position: relative;
   z-index: 2;
   background-color: #fff;
-  height: 1800px;
+  height: 1000px;
 }
 .wht2 {
   position: relative;
@@ -85,4 +88,26 @@ header {
   font-weight: 500;
   font-size: 12px;
   color: #fff;
+}
+#wht1_txt_up {
+  font-weight: bold;
+  font-size: 42px;
+  color: #050c33;
+  line-height: 1;
+}
+#wht1_txt_down {
+  font-weight: 500;
+  font-size: 22px;
+  color: #4f5a73;
+  line-height: 1.25;
+}
+.wht1_imgs {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4f5a73;
+  line-height: 1.25;
+}
+#wht1_block {
+  padding:150px 0;
 }
