@@ -1,5 +1,7 @@
-body {
-  font-family: Monsterrat;
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 header {
   height:500px;
@@ -204,11 +206,14 @@ header {
   width:100%;
 }
 .tarif_col {
+  padding: 60px 20px;
   background-color: #fff;
   border:3px solid #e6e6e6;
   border-radius: 5px;
 }
 .priced_type {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
   border-bottom: 3px solid #e6e6e6;
   font-size: 22px;
   font-weight: bold;
@@ -224,11 +229,28 @@ header {
   font-weight: 500;
 }
 .tarifs_block_collumns {
-  padding-top: 300px;
-  padding-right: 800px;
+
+}
+#tarifs_name {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 42px;
 }
 #tarifs_bg {
-  margin-left:100%;
-  position: absolute;
-  z-index: -1;
+  height: 900px;
+  background: url(pictures/D-background-opacity.svg) no-repeat right top;
+}
+#tarifs_blocks {
+  padding-top: 160px;
+}
+.tarifs_btn {
+  color: #f14d34;
+  padding: 20px 10px;
+  background: #fff;
+  border: 1px solid #f14d34;
+  border-radius: 5px;
+}
+.not_agree_tarif {
+  text-align: center;
 }
