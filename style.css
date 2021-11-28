@@ -1,10 +1,6 @@
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url("fonts/Montserrat-Regular.ttf");
-  font-family: 'Montserrat-Bold';
-  src: url("fonts/Montserrat-Bold.ttf");
-  font-family: 'Montserrat-Medium';
-  src: url("fonts/Montserrat-Medium.ttf");
 }
 
 header {
@@ -40,6 +36,14 @@ header {
 #razr_block {
   padding: 70px 0 60px;
 }
+.razr {
+  font-family: 'Montserrat-Bold';
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #fff;
+}
 .gs {
   height: 360px;
 }
@@ -47,6 +51,23 @@ header {
   border-left: 3px solid #f14d34;
   min-height: 80px;
   height: 100%;
+}
+.gs_up_first {
+  font-family: 'Montserrat-Bold';
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+.gs_up_second {
+  font-family: 'Montserrat-Bold';
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.gs_down {
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.25;
 }
 .wht {
   position: relative;
@@ -58,6 +79,7 @@ header {
   padding:150px 0;
 }
 #wht_txt_up {
+  font-family: 'Montserrat-Regular';
   font-weight: bold;
   font-size: 42px;
   color: #050c33;
@@ -76,20 +98,10 @@ header {
   color: #4f5a73;
   line-height: 1.25;
 }
-
 .tarifs_link {
   position: relative;
   z-index: 4;
   height: 360px;
-}
-
-.razr {
-  font-family: 'Montserrat';
-  font-size: 52px;
-  line-height: 60px;
-  font-weight: bold;
-  font-family: inherit;
-  color: #fff;
 }
 .uslugi {
   font-size: 18px;
@@ -103,21 +115,7 @@ header {
   border-radius:5px;
   padding: 15px 70px;
 }
-.gs_up_first {
-  font-size: 48px;
-  font-weight: bold;
-  color: #fff;
-}
-.gs_up_second {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-}
-.gs_down {
-  font-size: 12px;
-  color: #fff;
-  line-height: 1.25;
-}
+
 .txt_top {
   font-style: normal;
   font-weight: 500;
