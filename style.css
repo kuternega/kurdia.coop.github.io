@@ -30,26 +30,50 @@ header {
   height: auto;
   object-fit: cover;
 }
+#header_logo {
+  margin-top: -23px;
+  margin-left: -15px;
+}
 .list_of_links {
   position: relative;
   z-index: 4;
   height: 50px;
+  padding-top: 30px;
 }
 #razr_block {
   padding: 70px 0 60px;
 }
-.razr {
+#razr {
   font-size: 52px;
   line-height: 60px;
   font-weight: bold;
   font-family: inherit;
   color: #fff;
 }
-.gs {
-  height: 360px;
+#uslugi {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+}
+#btn {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+  padding: 22px 20px;
+  width: 220px;
+  text-align: center;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  background: none;
 }
 .gs_block {
   border-left: 3px solid #f14d34;
+  margin-bottom: 96px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   min-height: 80px;
   height: 100%;
 }
@@ -57,6 +81,7 @@ header {
   font-size: 48px;
   font-weight: bold;
   color: #fff;
+  margin-top: -22px;
 }
 .gs_up_second {
   font-size: 24px;
@@ -79,7 +104,7 @@ header {
 }
 #wht_txt_up {
   font-weight: bold;
-  font-size: 42px;
+  font-size: 52px;
   color: #050c33;
   line-height: 1;
 }
@@ -92,7 +117,7 @@ header {
 .wht_imgs {
   margin: 50px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: #4f5a73;
   line-height: 1.25;
 }
@@ -101,19 +126,6 @@ header {
   z-index: 4;
   height: 360px;
 }
-.uslugi {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #fff;
-}
-.btn {
-  border: round;
-  border-color:#fff;
-  color: #fff;
-  border-radius:5px;
-  padding: 15px 70px;
-}
-
 .txt_top {
   font-style: normal;
   font-weight: 500;
@@ -125,32 +137,51 @@ header {
   background-color: #fff;
 }
 #blk_cross {
-  height:980px;
-  background-color: #000000;
-}
-.blk_img {
-  background-color:#fff;
-  height: 300px;
-  width: 230px;
   position: relative;
-  z-index: 3;
-  border-radius: 5px;
-  box-shadow: 20px 20px 40px rgba(5,12,51,.05);
+  z-index: 1;
+  height:980px;
+  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),#040613; 
+}
+#blk_back {
+  position: relative;
+  z-index: 2;
+  background: url(pictures/drupal-logo-2.svg) no-repeat right bottom; 
 }
 #blk_txt {
   color: #050c33;
   text-align: center;
   font-weight: bold;
-  font-size: 42px;
-  line-height: 1.25;
+  font-size: 52px;
+  line-height: 1;
   margin-top: -500px;
+  margin-bottom: 60px;
   position: relative;
   z-index: 3;
+}
+.blk_img {
+  background-color:#fff;
+  height: 300px;
+  width: 250px;
+  position: relative;
+  z-index: 3;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(5,12,51,.05);
 }
 #blk_cross {
   margin-top: -220px;
   position: relative;
   z-index: 1;
+}
+.blk_little_block {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding-top: 30%;
+  padding-left:50%;
+}
+#laptop_img {
+  margin-left: -15px;
+  margin-top: -380px;
 }
 .blk_num {
   font-weight: bold;
@@ -166,7 +197,7 @@ header {
   line-height: 1.22;
   margin-bottom: 15px;
 }
-{
+.btn {
   font-weight: 500;
   font-size: 16px;
   color: #4e5a73;
@@ -178,16 +209,12 @@ header {
   bottom: 0;
   z-index: 3;
 }
-.blk_little_block {
-  color: #fff;
-  padding-top: 30%;
-  padding-left:50%;
-}
 .blk_ecspertiza {
   font-weight: bold;
   font-size: 42px;
   margin-bottom: 65px;
   line-height: 1.1;
+  margin-left: -35px;
 }
 .blk_ecsp_txt {
   border-left: 3px solid #f14d34;
@@ -201,10 +228,6 @@ header {
   color: rgba(256,256,256,.7);
   width: 260px;
   max-width: 100%;
-}
-.laptop_img {
-  margin-left: -15px;
-  margin-top: -380px;
 }
 .tarifs_block {
   height:500px;
@@ -256,8 +279,19 @@ header {
   border: 1px solid #f14d34;
   border-radius: 5px;
 }
-.not_agree_tarif {
+#not_agree_tarif {
   text-align: center;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #828a9b;
+  width: 475px;
+}
+#not_agree_tarif_down {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #050c33;
+  text-decoration: underline;
 }
 #skill_time {
   margin-top: 190px;
