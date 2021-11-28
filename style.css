@@ -1,8 +1,10 @@
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url("fonts/Montserrat-Regular.ttf");
+  font-family: 'Montserrat';
+  src: url("fonts/Montserrat-Medium.ttf");
 }
-
+body {
+  font-family: 'Montserrat';
+}
 header {
   position: relative;
   z-index: 1;
@@ -37,7 +39,6 @@ header {
   padding: 70px 0 60px;
 }
 .razr {
-  font-family: 'Montserrat-Bold';
   font-size: 52px;
   line-height: 60px;
   font-weight: bold;
@@ -53,13 +54,11 @@ header {
   height: 100%;
 }
 .gs_up_first {
-  font-family: 'Montserrat-Bold';
   font-size: 48px;
   font-weight: bold;
   color: #fff;
 }
 .gs_up_second {
-  font-family: 'Montserrat-Bold';
   font-size: 24px;
   font-weight: bold;
   color: #fff;
@@ -79,7 +78,6 @@ header {
   padding:150px 0;
 }
 #wht_txt_up {
-  font-family: 'Montserrat-Regular';
   font-weight: bold;
   font-size: 42px;
   color: #050c33;
