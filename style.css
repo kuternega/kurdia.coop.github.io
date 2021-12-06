@@ -1,3 +1,4 @@
+col-sm- col-md- col-lg- col-xl-
 @font-face {
   font-family: 'Montserrat';
   src: url("fonts/Montserrat-Medium.ttf");
@@ -17,24 +18,25 @@ header {
   background-color: rgba(0,0,0,.8);
   padding-bottom: 60px;
 }
+
 #bg_video {
-  position: absolute;
-  z-index: -3;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: cover;
+z-index: -3;
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+filter: blur(3px);
+transform: scale(1.04);
 }
 #header_logo {
   margin-top: -23px;
   margin-left: -15px;
 }
-.list_of_links {
+#header_links {
   position: relative;
   z-index: 4;
   height: 50px;
@@ -42,6 +44,11 @@ header {
 }
 #razr_block {
   padding: 70px 0 60px;
+}
+.tarifs_link {
+  position: relative;
+  z-index: 4;
+  height: 360px;
 }
 #razr {
   font-size: 52px;
@@ -68,13 +75,15 @@ header {
   border-radius: 5px;
   background: none;
 }
-.gs_block {
-  border-left: 3px solid #f14d34;
+.gs_tripple {
   margin-bottom: 96px;
+  width: 100%;
+}
+.gs_block {
+  border-left: 3px solid #f14d34; 
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
-  min-height: 80px;
   height: 100%;
 }
 .gs_up_first {
@@ -82,6 +91,12 @@ header {
   font-weight: bold;
   color: #fff;
   margin-top: -22px;
+}
+#trophy{
+  height: 58px;
+  position: absolute;
+  left: 65px;
+  top: -3px;
 }
 .gs_up_second {
   font-size: 24px;
@@ -121,11 +136,7 @@ header {
   color: #4f5a73;
   line-height: 1.25;
 }
-.tarifs_link {
-  position: relative;
-  z-index: 4;
-  height: 360px;
-}
+
 .txt_top {
   font-style: normal;
   font-weight: 500;
@@ -313,4 +324,65 @@ header {
   font-size: 16px;
   color: #4f5a73;
   line-height: 1.4;
+}
+@media screen and (max-width: 785px){
+  #header_links {display: none;}
+
+  header {height: 830px;}
+
+  #razr {
+  font-size: 42px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  }
+
+  #uslugi {
+  font-size: 14px;
+  text-align: center;
+  }
+
+  #btn_block {
+  margin: 0 40%;
+  }
+
+  .gs_tripple {
+  margin-bottom: 0px;
+  width: 50%;
+  }
+
+  .gs_block {
+  border-left: 3px solid #f14d34;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  }
+
+  #trophy{
+  position: absolute;
+  left: 65px;
+  top: -3px;
+  }
+
+  #wht_txt_up {
+  font-size: 24px;
+  line-height: 1.1;
+  }
+  
+  #wht_txt_down {
+  font-size: 16px;
+  line-height: 1.43;
+  }
+
+  .wht_imgs {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.43;
+  }
+  
+  .wht_img_txt {
+  text-align: center;
+  }
 }
