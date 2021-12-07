@@ -267,9 +267,6 @@ transform: scale(1.04);
   color: #4e5972;
   font-weight: 500;
 }
-.tarifs_block_collumns {
-
-}
 #tarifs_name {
   text-align: center;
   color: #000;
@@ -325,6 +322,7 @@ transform: scale(1.04);
   color: #4f5a73;
   line-height: 1.4;
 }
+
 @media screen and (max-width: 785px){
   #header_links {display: none;}
 
@@ -385,4 +383,71 @@ transform: scale(1.04);
   .wht_img_txt {
   text-align: center;
   }
+  
+  #blk_txt {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-top: -150px;
+  margin-bottom: 60px;
+  }
+  
+  .blk_img {
+  background-color:#fff;
+  height: 220px;
+  width: 410px;
+  }
+
+  .blk_ecspertiza {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding-top: 250px;
+  }
+
+  .blk_little_block {
+  padding-top: 0;
+  padding-left:0;
+  }
+ 
+  #laptop_img {
+  height: 360px;
+  width: 370px;
+  margin-top: 0;
+  }
+
+  .blk_ecsp_txt {
+  min-height: 88px;
+  height: 100%;
+  width: 260px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  }
+  
+  .tarif_col_big {
+  margin-bottom: 10px;
+  }
+  
+  #tarifs_bg {
+  height: 2000px;
+  background: url(pictures/D-background-opacity.svg) no-repeat right top;
+  background-size: 1000px, 2000px;
+  }
+  
+  #not_agree_tarif {
+  width: 375px;
+  }
+
+  #devs_time_skills {
+  font-size: 24px;
+  }
+
+  .needed_time {
+  text-align: center;
+  }
+
+  .needed_time_terms {
+  text-align: center;
+  }
+  
 }
