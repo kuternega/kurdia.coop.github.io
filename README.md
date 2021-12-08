@@ -1,1 +1,1 @@
-# kurdia.github.io
+kuternega.github.io/kurdia.github.io
