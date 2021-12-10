@@ -26,7 +26,6 @@ right: 0;
 left: 0;
 width: 100vw;
 filter: blur(3px);
-transform: scale(1.04);
 }
 #header_logo {
   margin-top: -23px;
