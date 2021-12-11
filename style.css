@@ -360,8 +360,8 @@ filter: blur(3px);
   }
 
   .gs_tripple {
-  margin-bottom: 0px;
   width: 50%;
+  margin: 0 auto;
   }
 
   .gs_block {
