@@ -17,7 +17,6 @@ header {
   background-color: rgba(0,0,0,.8);
   padding-bottom: 60px;
 }
-
 #bg_video {
 z-index: -3;
 position: absolute;
@@ -37,12 +36,31 @@ filter: blur(3px);
   height: 50px;
   padding-top: 30px;
 }
+#admin_block {
+  position: absolute;
+  z-index: 5;
+  background-color: #f04d35;
+  display: none;
+  border: 1px solid rgba(0,0,0,.15);
+}
+#admin_inside {
+  margin: 6px 0;
+}
+.admin_txt {
+  padding: 3px 0;
+}
+.admin_clr {
+  padding: 0 15px;
+  color: #fff;
+}
+.admin_clr:hover {
+  text-decoration: none;
+  color: #fff;
+}
 #razr_block {
   padding: 70px 0 60px;
 }
 .tarifs_link {
-  position: relative;
-  z-index: 4;
   height: 360px;
 }
 #razr {
@@ -302,14 +320,17 @@ filter: blur(3px);
   line-height: 1.3;
   font-weight: 500;
   color: #828a9b;
-  width: 475px;
 }
 #not_agree_tarif_down {
-  text-align: center;
   font-size: 12px;
-  text-transform: uppercase;
-  color: #050c33;
+  width: 259px;
+}
+#not_agree_tarif_down a{
   text-decoration: underline;
+  color: #050c33;
+}
+#not_agree_tarif_phone {
+  display: none;
 }
 #skill_time {
   margin-top: 190px;
@@ -335,9 +356,10 @@ filter: blur(3px);
 
 @media screen and (max-width: 785px){
   #header_links {display: none;}
-
+  
+  #header_section {padding: 0;}
   header {height: 830px;}
-
+ 
   #razr {
   font-size: 32px;
   line-height: 1.2;
@@ -469,9 +491,15 @@ filter: blur(3px);
   
   .tarif_col_big {margin-bottom: 10px;}
 
-  #not_agree_tarif {
-  width: 375px;
+  #not_agree_tarif_phone {
+  display: block;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #828a9b;
   }
+
+  #not_agree_tarif {display: none;}
 
   #devs_time_skills {
   font-size: 24px;
