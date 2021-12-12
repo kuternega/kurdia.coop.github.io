@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="px-0 col-12">
+<body>
   <header>
     <section class="col-12">
       <video id="bg_video" autoplay="autoplay" loop="" preload="auto" muted="">
@@ -20,18 +20,30 @@
       </video>
     </section>
     <section id="header_section" class="col-12 collumn">
+
       <div id="header_links" class="row col-9 mx-auto">
         <div id="header_logo" class="col-3 pt-2">
-          <img src="pictures/initlab.svg" alt="Основная страница" width="156" hight="31" />
+          <img src="pictures/initlab.svg" alt="Основная страница" width="156" height="31" />
         </div>
         <div id="list_of_links" class="row col-9 mx-auto">
-          <div class="txt_top mx-auto">ПОДДЕРЖКА DRUPAL</div>
-          <div class="txt_top mx-auto">АДМИНИСТРИРОВАНИЕ</div>
-          <div class="txt_top mx-auto">ПРОДВИЖЕНИЕ</div>
-          <div class="txt_top mx-auto">РЕКЛАМА</div>
-          <div class="txt_top mx-auto">О НАС</div>
-          <div class="txt_top mx-auto">ПРОЕКТЫ</div>
-          <div class="txt_top mx-auto">КОНТАКТЫ</div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="    hideBorder(this)">ПОДДЕРЖКА DRUPAL</div>
+          <div onMouseOver="showBlock()" onmouseout="hideBlock()" class="txt_top mx-auto" >
+            АДМИНИСТРИРОВАНИЕ
+            <div id="admin_block" onMouseOver="showBlock()" onmouseout="hideBlock()">
+              <div id="admin_inside">
+                <div class="admin_txt col-12 px-0" onMouseOver="becomeDarker(this)" onMouseOut="becomeBrighter(this)"><a class="admin_clr" href="">МИГРАЦИЯ</a></div>
+                <div class="admin_txt col-12 px-0" onMouseOver="becomeDarker(this)" onMouseOut="becomeBrighter(this)"><a class="admin_clr" href="">БЭКАПЫ</a></div>
+                <div class="admin_txt col-12 px-0" onMouseOver="becomeDarker(this)" onMouseOut="becomeBrighter(this)"><a class="admin_clr" href="">АУДИТ БЕЗОПАСНОСТИ</a></div>
+                <div class="admin_txt col-12 px-0" onMouseOver="becomeDarker(this)" onMouseOut="becomeBrighter(this)"><a class="admin_clr" href="">ОПТИМИЗАЦИЯ СКОРОСТИ</a></div>
+                <div class="admin_txt col-12 px-0" onMouseOver="becomeDarker(this)" onMouseOut="becomeBrighter(this)"><a class="admin_clr" href="">ПЕРЕЕЗД НА HTTPS</a></div>
+              </div>
+            </div>  
+          </div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="hideBorder(this)">ПРОДВИЖЕНИЕ</div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="hideBorder(this)">РЕКЛАМА</div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="hideBorder(this)">О НАС</div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="hideBorder(this)">ПРОЕКТЫ</div>
+          <div class="txt_top mx-auto" onMouseOver="showBorder(this)" onmouseout="hideBorder(this)">КОНТАКТЫ</div>
         </div>
       </div>
 
@@ -334,19 +346,17 @@
           </div>
         </div>
       </div>
+      <div id="not_agree_tarif_phone" class="col-12 px-0 my-5">
+          Вам не подходят наши тарифы? Оставьте<br />заявку и мы предложим вам индивидуальные<br />условия!<br />
+      </div>
+      <div id="not_agree_tarif" class="col-12 px-0 mt-5 mb-3">
+          Вам не подходят наши тарифы? Оставьте заявку и мы<br />предложим вам индивидуальные условия!<br />
+      </div>
+      <div id="not_agree_tarif_down" class="mx-auto"><a>ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a></div>
     </div>
 
-    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 mx-auto mt-4" height="150px">
-      <div class="collumn col-sm-12 col-md-12 col-lg-7 col-xl-7 m-auto">
-        <div id="not_agree_tarif" class="col-sm-12 col-md-12 col-lg-8 col-xl-8 mx-auto mb-4">
-          Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!
-          <br />
-          <br />
-          <a id="not_agree_tarif_down" class="col-4 mx-auto ">ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a>
-        </div>
-      
-      </div>
-    </div>
+ 
+    
   </section>
 
 
@@ -399,4 +409,26 @@
     </div>
   </div>
 
+  <script>
+    function showBlock() {
+      let ab = document.getElementById("admin_block");
+      ab.style.display = "block";
+    }
+    function hideBlock() {
+      let ab = document.getElementById("admin_block");
+      ab.style.display = "none";
+    }
+    function becomeDarker(bd) {
+      bd.style.backgroundColor = "#d13018";
+    }
+    function becomeBrighter(bb) {
+      bb.style.backgroundColor = "#f04d35";
+    }
+    function showBorder(sb) {
+      sb.style.borderBottom = "3px solid #f14d34";
+    }
+    function hideBorder(hb) {
+      hb.style.borderBottom = "none";
+    }
+  </script>
 </body>
