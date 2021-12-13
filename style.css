@@ -354,6 +354,64 @@ filter: blur(3px);
   line-height: 1.4;
 }
 
+.member{
+
+}
+.team_title{
+  margin-top: 60px;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.member_name{
+  font-weight: bold;
+}
+
+.btn_team{
+  width: 300px;
+  font-weight: bold;
+  padding: 20px 10px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.case{
+   height: 450px;
+   overflow: hidden;
+   border-radius: 5px;
+}
+
+.last_case img{
+  border-radius: 5px;
+  border: 5px,5px,5px,5px;
+}
+.case_background img{
+  position: absolute;
+  z-index: -5;
+  height: 100%;
+  left: -250px;
+}
+.case_background{
+}
+
+.case_text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 20px;
+}
+
+.case_title_w{
+    font-weight: bold;
+    color: #fff;
+}
+
+.case_title_b{
+    font-weight: bold;
+}
+
 @media screen and (max-width: 785px){
   #header_links {display: none;}
   
