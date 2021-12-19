@@ -29,3 +29,14 @@ $(document).on('ready', function() {
 
   });
 });
+
+$(document).ready(function() {
+ $(".FAQ_accordion .FAQ_qestion:first").addClass("active");
+ $(".FAQ_accordion .FAQ_answer:not(:first)").hide();
+ $(".FAQ_accordion .FAQ_qestion").click(function () {
+   $(this).next(".FAQ_answer").slideToggle("fast")
+     .siblings(".FAQ_answer:visible").slideUp("normal");
+   $(this).toggleClass("active");
+   $(this).siblings(".FAQ_qestion").removeClass("active");
+ });
+}); 
