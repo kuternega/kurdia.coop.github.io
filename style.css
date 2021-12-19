@@ -6,7 +6,7 @@ header {
   z-index: 1;
   height:600px;
 }
-#header_section {
+#header_section { 
   position: relative;
   z-index: 1;
   background: url(pictures/druplicon.svg) no-repeat left top;
