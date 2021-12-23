@@ -1,7 +1,9 @@
 $(document).on('ready', function() {
+  var n=4;
+  if($(window).width()>800)n=6;
   $('.worked_with_us_slider1').slick({
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: n,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -9,9 +11,11 @@ $(document).on('ready', function() {
 });
 
 $(document).on('ready', function() {
+  var n=4;
+  if($(window).width()>800)n=6;
   $('.worked_with_us_slider2').slick({
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: n,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
