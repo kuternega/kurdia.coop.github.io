@@ -679,7 +679,7 @@
   </div>
 
 
-  <div class="FAQ col-9 mx-auto">
+  <div class="FAQ col-8 mx-auto">
     <div class="FAQ_title">FAQ</div>
     <div class="FAQ_accordion">
       <div class="FAQ_qestion"><div class="FAQ_qestion_number">1.</div>Кто непосредственно занимается поддержкой?</div>
@@ -777,7 +777,7 @@
 
 
   <footer>
-    <div class="col-9 mx-auto">
+    <div class="col-8 mx-auto">
       <div class="footer_top row px-0 mx-0">
         <div class="col-6">
           <div class="footer_title">Оставить заявку на поддержку сайта</div>
@@ -787,17 +787,30 @@
           <div class="footer_content_phone"><img src="pictures/footer_phone.svg">8 800 222-26-73</div>
           <div class="footer_content_mail"><img src="pictures/footer_mail.svg"><a href="">info@drupal-coder.ru</a></div>
         </div>
-        <div class="col-6">
-          <form>
-            
+        <div class="footer_form col-6">
+          <form action="/"method="POST">
+            <label>
+              <input class="footer_form_input" name="field-name" value="Ваше имя"/><br />
+              <input class="footer_form_input" name="field-email" value="Телефон"/><br />
+              <input class="footer_form_input" name="field-phone" type="email" value="E-mail"/><br />
+              <textarea class="footer_form_input_comment" name="field-name-2">Ваш комментарий</textarea>
+              <label class="footer_form_label">
+                <input class="footer_form_chekbox" type="checkbox" name="check-1" />
+                Отправляя заявку, я даю согласие на <a href="">обработку своих персональных </br>данных.<img src="pictures/footer_form_label.svg"></a>
+              </label><br />
+            <input class="footer_form_button" type="submit" value="Свяжитесь с нами" />
           </form>
         </div>
       </div>
     </div>
     <div class="footer_bottom">
-      <div class="footer_bottom_content col-9 mx-auto">
+      <div class="footer_bottom_content col-8 mx-auto">
         <div class="row px-0 mx-0">
-          ssssssssss
+          <a href=""><img src="pictures/footer_link1.png"></a>
+          <a href=""><img src="pictures/footer_link2.png"></a>
+          <a href=""><img src="pictures/footer_link3.png"></a>
+          <a href=""><img src="pictures/footer_link4.png"></a>
+          <a href=""><img src="pictures/footer_link5.png"></a>
         </div>
         <p>ООО «Инитлаб», Краснодар, Россия.</br>Drupal является зарегистрированной торговой маркой Dries Buytaert.</p>
       </div>
