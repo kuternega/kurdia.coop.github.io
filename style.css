@@ -633,6 +633,10 @@ filter: blur(3px);
   border-color: #f14d34;
   border: 3px solid #f14d34;
   border-top: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e5a73;
+  line-height: 1.37;
 
 }
 
@@ -656,6 +660,9 @@ filter: blur(3px);
   transition: border-color .35s;
   margin: 0;
   font-size: 18px;
+}
+
+.FAQ_qestion{
   font-weight: bold;
 }
 
@@ -691,9 +698,10 @@ footer{
 
 .footer_content{
   line-height: 1.55;
-  font-size: 14px;
+  font-size: 18px;
   color: rgba(256,256,256,.7);
   margin-bottom: 140px;
+  padding-right: 85px;
 }
 
 .footer_content_phone img,
@@ -720,6 +728,56 @@ footer{
   text-decoration: underline;
 }
 
+.footer_form{
+  padding-left: 95px;
+  color: #fff;
+}
+
+.footer_form_input,
+.footer_form_input_comment,
+.footer_form_button{
+  border-radius: 5px;
+  margin-bottom: 7px;
+  width: 450px;
+  height: 57px;
+  background: transparent;
+  padding: 26px 24px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid rgba(256,256,256,.3)
+}
+
+.footer_form_input_comment{
+    height: 130px;
+}
+
+.footer_form_label{
+    height: 40px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer_form_label a{
+    color: #f14d34;
+}
+
+.footer_form_label img{
+  height: 7px;
+  vertical-align: top;
+}
+
+.footer_form_chekbox{
+  background: transparent;
+  border: 1px solid rgba(256,256,256,.3)
+}
+
+.footer_form_button{
+  margin-top: 7px;
+  padding: 0px 0px;
+  background-color: #f14d34;
+}
+
 .footer_bottom{
     border-top: 1px solid rgba(256,256,256,.3);
 }
@@ -727,6 +785,11 @@ footer{
 .footer_bottom_content{
   padding-top: 56px;
   padding-bottom: 36px;
+}
+
+.footer_bottom_content img{
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 785px){
