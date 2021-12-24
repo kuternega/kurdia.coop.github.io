@@ -4,11 +4,13 @@
 }
 body {
   font-family: 'Montserrat';
+  overflow: hidden;
 }
 header {
   position: relative;
   z-index: 1;
   height:600px;
+  overflow: hidden;
 }
 #header_section {
   position: relative;
@@ -23,7 +25,10 @@ position: absolute;
 top: 0;
 right: 0;
 left: 0;
-width: 100%;
+width: auto;
+height: auto;
+min-width: 100%;
+min-height: 100%;
 filter: blur(3px);  
 }
 #header_logo {
@@ -811,9 +816,17 @@ footer{
   margin-bottom: 15px;
 }
 
+
+
+
+
 @media screen and (max-width: 785px){
   #header_links {display: none;}
   
+  #bg_video {
+    min-width: 150%;
+    min-height: 150%;
+  }
   #header_section {padding: 0;}
   header {height: 830px;}
  
