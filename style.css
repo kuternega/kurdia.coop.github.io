@@ -828,7 +828,7 @@ footer{
   #bg_video {
     min-width: 180%;
     min-height: 180%;
-    height: 100px;
+    height: 1000px;
   }
   #header_section {padding: 0;}
   header {height: 830px;}
