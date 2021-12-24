@@ -1050,6 +1050,10 @@ footer{
     right: 64px;
   }
 
+  .slick-slide{
+  padding-top:0px;
+  }
+  
   .rewiews_block{
     padding: 66px 0 66px 68px;
   }
