@@ -361,6 +361,7 @@ filter: blur(3px);
 
 .team_title{
   margin-top: 60px;
+  margin-botton:20px;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -531,6 +532,9 @@ filter: blur(3px);
   margin-bottom: 40px;
 }
 
+.slick-slide{
+  padding-top:25px;
+}
 .rewiews_slider_content{
   border-bottom: 2px solid #cdcdcd;
   font-weight: bold;
@@ -568,8 +572,6 @@ filter: blur(3px);
   left: 35%;
   z-index: 40;
 }
-
-
 
  .rewiews_slider .slick-arrow.slick-next {
     content: '';
